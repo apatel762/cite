@@ -68,7 +68,7 @@ def create_citation_from_link(link: str) -> None:
 
     sys.stdout.write(citation)
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(description='Create a web citation from a URL')
     parser.add_argument(
         'url',
@@ -77,3 +77,7 @@ if __name__ == '__main__':
     args: argparse.Namespace = parser.parse_args()
 
     create_citation_from_link(link=args.url)
+
+if __name__ == '__main__':
+    main()
+
