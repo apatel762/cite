@@ -7,7 +7,7 @@ license = "AGPL-3.0-or-later"
 readme = "README.md"
 
 [tool.poetry.scripts]
-cite = "cite.cite:main"
+cite = "cite.cite:create_citation_from_link"
 
 [tool.poetry.dependencies]
 python = "^3.10"
