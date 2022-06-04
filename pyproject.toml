@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cite"
+version = "0.1.0"
+description = "Python CLI app to aid with generating markdown citations for web pages"
+authors = ["Arjun Patel <relay-git-1LKQ1GqLp0Nn4@aspatel.com>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.scripts]
+cite = "cite.cite:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
